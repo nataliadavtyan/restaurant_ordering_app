@@ -213,6 +213,7 @@ button:active {
 .modal-close-button {
     background: none;
     border: none;
+    font-family: 'Verdana', sans-serif;
     font-size: 32px;
     font-weight: 700;
     color: #FFFFFF;
@@ -224,7 +225,7 @@ button:active {
 }
 
 .checkout-form-header {
-    font-family: 'Verdana';
+    font-family: 'Verdana', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -236,7 +237,7 @@ button:active {
 .checkout-form input {
     width: 476px;
     height: 70px;
-    font-family: 'Verdana';
+    font-family: 'Verdana', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -278,7 +279,7 @@ input[type=number] {
 /* ---------- Thank you message ---------- */
 .thank-you-message {
     text-align: center;
-    font-family: 'Smythe';
+    font-family: 'Smythe', cursive;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
