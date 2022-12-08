@@ -26,7 +26,7 @@ checkoutForm.addEventListener('submit', function(e){
     
     thankYouMessageEl.classList.remove('hidden')
     thankYouMessageEl.innerHTML = `
-            <div>Thanks, ${name}! Your order is on its way!</div>
+            <div>Thanks,  ${name}! Your order is on its way!</div>
         `
     
     setTimeout(function(){
