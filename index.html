@@ -1,0 +1,78 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+       <!-- Google fonts -->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Smythe&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            
+            <!-- ---------- Header ---------- -->
+            <header class="header">
+                <div class="header-text">
+                    <h1>Jimmy's diner</h1>
+                    <h3>The best burgers and pizzas in town</h3>
+                </div>
+            </header>
+            
+            
+            <!-- ---------- Menu ---------- -->
+            <div class="menu" id="menu">
+                <!-- Main content / menu -->
+            </div>
+            
+            <!-- ---------- Order container ---------- -->
+            <div class="order-container hidden" id="order-container">
+                <h3 class="align-center">Your order</h3>
+                <div class="order-list-container" id="order-list-container">
+                    <!-- Order summary here -->
+                </div>
+                    <div class="thick-divider"></div>
+                    <div class="order-list-item">
+                        <h3>Total price:</h3>
+                        <p class="order-item-price item-price" id="total-price"></p>
+                    </div>
+                <button class="complete-order-btn" id="complete-order-btn">Complete order</button>
+            </div>
+            
+            <!-- ---------- Thank you message ---------- -->          
+            <div class="thank-you-message hidden" id="thank-you-message">
+                <!-- Thank you message here -->
+            </div>            
+            
+        </div>
+        
+        <!-- ---------- Modal ---------- -->
+        <div class="modal hidden" id="modal">
+            <div class="modal-close-button-container">
+                <button class="modal-close-button" id="modal-close-button">X</button>
+            </div>
+            <form class="checkout-form" id="checkout-form">
+                <div class="checkout-form-header">Enter card details</div>
+                <input 
+                    type="text" 
+                    name="customerName" 
+                    placeholder="Enter your name" 
+                    aria-label="Enter your name" 
+                    required/>
+                <input 
+                    type="number" 
+                    name="customerCardNumber" 
+                    aria-label="Enter card number" 
+                    placeholder="Enter card number" 
+                    required/>
+                <input 
+                    type="number" 
+                    name="customerCardCvv" 
+                    placeholder="Enter CVV" 
+                    required/>
+                <button class="pay-btn" type="submit">Pay</button>
+            </form>
+        </div>
+        
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+
