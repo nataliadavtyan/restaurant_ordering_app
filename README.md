@@ -1,11 +1,32 @@
-## About Scrimba
+# Restaurant ordering app
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+Food delivery app
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## Features
+When a user clicks on a plus button, a new section appears that contains the items that they want to order with their prices and the total price. There is an option to remove each particular item from the order. Whey they click on the Complete order button, they are presented with the payment modal. They are required to enter their name, bank card and CVV. When the user completes the form and clicks Pay, a personalized thank you message appears and they can place a new order.
 
-Happy Coding!
+## Demo
+![The demonstration](./restaurant-ordering-app.gif)
+
+Test it on Netlify: https://thriving-khapse-a6c059.netlify.app/
+
+## Technologies
+The project is built using:
+* HTML
+* CSS
+* JavaScript
+
+## Technical details
+* Used the data file to render the items in the menu in JavaScript.
+* Connected each add and remove buttons to their items.
+* Different parts of the app appear and disappear after certain actions.
+* Followed the design file on Figma.
+
+## Acknowledgements
+Restaurant ordering app is a solo project that was part of [the Frontend Developer Career Path at Scrimba](https://scrimba.com/learn/frontend).
+
+## Project status
+The project is complete.
+
+## Contact
+Created by [Natalia Davtyan](https://github.com/nataliadavtyan)
