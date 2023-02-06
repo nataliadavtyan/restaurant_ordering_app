@@ -22,11 +22,11 @@ The project is built using:
 * Different parts of the app appear and disappear after certain actions.
 * Followed the design file on Figma.
 
-## Acknowledgements
-Restaurant ordering app is a solo project that was part of [the Frontend Developer Career Path at Scrimba](https://scrimba.com/learn/frontend).
-
 ## Project status
 The project is complete.
+
+## Acknowledgements
+Restaurant ordering app is a solo project that was part of [the Frontend Developer Career Path at Scrimba](https://scrimba.com/learn/frontend).
 
 ## Contact
 Created by [Natalia Davtyan](https://github.com/nataliadavtyan)
