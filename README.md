@@ -8,7 +8,7 @@ When a user clicks on a plus button, a new section appears that contains the ite
 ## Demo
 ![The demonstration](./restaurant-ordering-app.gif)
 
-Test it on Netlify: https://thriving-khapse-a6c059.netlify.app/
+Test it on Netlify: https://restaurant-order-natalia-davtyan.netlify.app/
 
 ## Technologies
 The project is built using:
